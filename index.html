@@ -6,63 +6,275 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hikers</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-<section class="header">   
-    <nav>
-        <div class="nav-links">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PACKAGES</a></li>
-                <li><a href="#">CONTACT US</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container-main">   
+    <section class="header">   
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PACKAGES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+                <h1><span>Hi</span>Kers</h1>
+            </div>
+        </nav>
+     
         <div class="text-box">
             <h1>See the world</h1>
-            <p>Norway, officially the Kingdom of Norway, is a Nordic country in Northern Europe whose mainland territory</p>
-        </div> 
-        <div class="container-show">
-            <div class="image-show">
-                <img src="images/h.jpeg" >
-            </div>
-            <div class="image-show">
-                <img src="images/k.jpeg" >
-            </div>          
-            <div class="image-show">
-                <img src="images/n.jpeg" >
-            </div>
-        </div>
-    </div>
-</section>
-<section class="about">    
-        <h1>ABOUT</h1>        
+            <p>Norway, officially the Kingdom of Norway</p>
+            
+            <a href="#book"  class="btn">Book Now</a>
+        </div>         
+        
+    </section>
+
+    <!--About Section-->
+    <section class="about">                  
         <div class="abt-row">
             <div class="col-about">
+                <h1 class="title">ABOUT</h1>
                 <p>As it turns out, the nucleus accumbens, a part of the brain that influences motivation and pleasure, also affects one’s drowsiness. If this region is not stimulated, the brain will send signals to fall asleep. These neurons are so strong that we cannot perceive the difference between boredom-induced sleep and regular sleep, known as slow-wave sleep, which is characterized by slow and high-voltage brain waves.</p>
             </div>
             <div class="col-about">
-                <img src="images/s.jpeg" alt="">
+                <img src="images/m.jpeg" alt="">
+            </div>           
+        </div>        
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="title">BOOK NOW</h1>
+        <form action="">
+            <div class="box">
+                <label for="date">From</label>
+                <input type="date" placeholder="Start Date">
+            </div>
+            <div class="box">
+                <label for="date">To</label>
+            <input type="date" placeholder="End Date">
+            </div>
+            <div class="box">
+                <label for="name">Full Names</label>
+            <input type="text" placeholder="Full Names">
+            </div>
+            <div class="box">
+                <label for="name">How Many</label>
+            <input type="text" placeholder="Number of Guests">
+            </div>
+            <div class="box">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter email">
+            </div>
+            <div class="box">
+                <label for="destination">Destination</label>
+                <input type="text" placeholder="Enter Destination">
+            </div>
+            <input  id="bt" type="submit" class="btn" value="Submit">
+        </form>
+    </section>
+
+    <section class="packages">
+        <h1 class="title">OUR PACKAGES</h1>
+    <div class="package-dest">
+        <div class="destination">
+            <img src="images/img1.jpeg" alt="">
+            <div class="abt">
+                <h3><i class="fas fa-map-marker-alt"></i>Miami</h3>
+                <p>Life is like a box of chocolates, and you might be searching </p>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+            
+        </div>
+        <div class="destination">
+            <img src="images/img2.jpeg" alt="">
+            <div class="abt">
+                <h3><i class="fas fa-map-marker-alt"></i>Prague</h3>
+                <p>Life is like a box of chocolates, and you might be searching </p>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#book" class="btn">Book Now</a>
             </div>
            
         </div>
-        
-</section>
-<section class="packages">
-    <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <div class="destination">
+            <img src="images/img3.jpeg" alt="">
+            <div class="abt">
+                <h3><i class="fas fa-map-marker-alt"></i>Tokyo</h3>
+                <p>Life is like a box of chocolates, and you might be searching </p>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+           
+        </div>
+        <div class="destination">
+            <img src="images/img4.jpeg" alt="">
+            <div class="abt">
+                <h3><i class="fas fa-map-marker-alt"></i>Manchester</h3>
+                <p>Life is like a box of chocolates, and you might be searching </p>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+           
+        </div>
+        <div class="destination">
+            <img src="images/img5.jpeg" alt="">
+            <div class="abt">
+                <h3><i class="fas fa-map-marker-alt"></i>Mauritius</h3>
+                <p>Life is like a box of chocolates, and you might be searching </p>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+            
+        </div>
+        <div class="destination">
+            <img src="images/img6.jpeg" alt="">
+            <div class="abt">
+                <h3><i class="fas fa-map-marker-alt"></i>Nairobi</h3>
+                <p>Life is like a box of chocolates, and you might be searching </p>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>    
     </div>
-</section>
-<section class="testimonials">
+    </section>
+    <section class="services">
+        <h1 class="title">AVAILABLE SERVICES</h1>
+        <div class="serv-abt">
+            <div class="contain">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable hotels</h3>
+                <p>Although the freedom of media and freedom of expression are guaranteed in Kenya, all media houses including the radio stations in</p>
+            </div>
+            <div class="contain">
+                <i class="fas fa-plane"></i>
+                <h3>Air Travel</h3>
+                <p>Although the freedom of media and freedom of expression are guaranteed in Kenya, all media houses including the radio stations in</p>
+            </div>
+            <div class="contain">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>Although the freedom of media and freedom of expression are guaranteed in Kenya, all media houses including the radio stations in</p>
+            </div>
+        </div>   
+        </div>
+    </section>
+    <section class="gallery">
+        <h1 class="title">GALLERY</h1>
+        <div class="box-contain">
+            <div class="box">
+                <img src="images/gal1.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gal2.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gal3.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gal4.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gal7.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/gal6.jpg" alt="">
+            </div>
+           
+        </div>
+    </section>
+    <section class="Reviews">
+        <h1 class="title">TESTIMONIALS</h1>
+        <div class="testimonials">
+            <div class="testimonys">
+                <div>
+                    <img src="images/pfl1.jpeg" alt="">
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, minus veniam rerum consequatur dolorum nam optio velit distinctio assumenda facilis, repellat dolor placeat inventore aut iure deleniti ullam fugit! Aspernatur.</p>
+            </div>
+            <div class="testimonys">
+                <div>
+                    <img src="images/pfl3.jpeg" alt="">
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, minus veniam rerum consequatur dolorum nam optio velit distinctio assumenda facilis, repellat dolor placeat inventore aut iure deleniti ullam fugit! Aspernatur.</p>
+            </div>
+            <div class="testimonys">
+                <div>
+                    <img src="images/pfl2.jpeg" alt="">
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, minus veniam rerum consequatur dolorum nam optio velit distinctio assumenda facilis, repellat dolor placeat inventore aut iure deleniti ullam fugit! Aspernatur.</p>
+            </div>
+        </div>
+    </section>
+    <section class="Contacts">
+        <h1 class="title">CONTACT US</h1>
+        <div class="cont-cont">
+            <div class="insider">
+                <img src="images/r.jpeg" alt="">
+            </div>
+            <div class="insider">
+                <form action="">
+                    <div class="box">
+                        <label for="name">First Name</label>
+                    <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="box">
+                        <label for="name">Second Name</label>
+                    <input type="text" placeholder="Second Name">
+                    </div>
+                    <div class="box">
+                        <label for="name">Email</label>
+                    <input type="email" placeholder="Email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    
+                </form>        
+                <input type="submit" id="bt" class="btn" value="Send">        
+            </div>
+        </div>
 
-</section>
-<section class="Contact Us">
-
-</section>
+    </section>
+    
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis officiis voluptatibus nihil libero, </p>
+            </div>
+            <div class="box">
+                <h3>Destinations</h3>
+                <a href="#">Manchester</a>
+                <a href="#">Tokyo</a>
+                <a href="#">Prague</a>
+                <a href="#">Nairobi</a>            
+            </div>   
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Book</a>
+                <a href="#">Packages</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us On</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>            
+            </div>    
+    
+        </div>
+    
+        <h1 class="credit"> Created By <span>Me</span> All Rights Reserrved! </h1> 
+    
+    </section>    
+    
 
 </body>
 </html>
